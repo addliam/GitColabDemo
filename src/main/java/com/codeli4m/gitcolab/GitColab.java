@@ -4,7 +4,7 @@
  */
 
 package com.codeli4m.gitcolab;
-
+import com.codeli4m.gitcolab.frontend.Principal;
 /**
  *
  * @author HP
@@ -13,5 +13,8 @@ public class GitColab {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+    
+       Principal pantalla = new Principal();
+       pantalla.setVisible(true);
     }
 }
